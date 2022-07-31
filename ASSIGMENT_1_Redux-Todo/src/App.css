@@ -1,0 +1,55 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.mainn {
+  position: relative;
+  align-items: center;
+  align-content: center;
+ display: flex;
+  width: auto;
+  height: auto;
+  display: block;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rebeccapurple;
+}
+
+.App {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  display: flex;
+  margin-top: 250px; 
+  
+}
+
+.ndmain , .center {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.center {
+  justify-items: center;
+  align-items: center;
+  align-content:center ;
+  display:block;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.delete , .edit {
+  background-color: #333333;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 10px;
+}
+
